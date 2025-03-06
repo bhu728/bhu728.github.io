@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sen:wght@400..800&display=swap');
+
+
+h1{
+    font-family: "Sen", serif;
+    font-style: normal;
+    color: #FFFFFA;
+    font-size: 50px;
+    padding-left: 40px;
+    letter-spacing: -5px;
+  }
+
+body {
+    font-family: "Jost", serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color:#0D5C63;
+    padding: 10px 0;
+    padding-left: 32px;
+    text-align: left;
+    border-top: 2px solid white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFFFFA;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+.yläpalkki{
+    background-color: #0D5C63;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+h2{
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+h3{
+    padding: 30px;
+}
+h4{
+    padding-left: 30px;
+}
+h5{
+    padding-left: 30px;
+}
+p{
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.kuva1{
+    width: 170px;
+    height: 260px;
+    padding: 20px;
+    clip-path: circle(75px);
+
+}
+.taulu1{
+    border:#FFFFFA;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.tauluteksti{
+    display: flex;
+    flex-direction: column;
+}
+.taulu2{
+    border:#FFFFFA;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+.taulu3{
+    border:#FFFFFA;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+.taulu4{
+    border:#FFFFFA;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
