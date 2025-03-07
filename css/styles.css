@@ -85,3 +85,7 @@ span {
     height: 200px;
     object-fit: cover;
   }
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+}

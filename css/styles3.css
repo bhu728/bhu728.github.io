@@ -95,3 +95,7 @@ p{
 .login-container button:hover {
     background-color: #0D5C63;
 }
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
